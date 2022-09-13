@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/invertory-service/invertory-service.iml" filepath="$PROJECT_DIR$/invertory-service/invertory-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inventory-service/invertory-service.iml" filepath="$PROJECT_DIR$/inventory-service/invertory-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/microservices-parent.iml" filepath="$PROJECT_DIR$/.idea/microservices-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/order-services/order-services.iml" filepath="$PROJECT_DIR$/order-services/order-services.iml" />
       <module fileurl="file://$PROJECT_DIR$/product-service/product-service.iml" filepath="$PROJECT_DIR$/product-service/product-service.iml" />

@@ -14,6 +14,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="invertory-service" target="17" />
+      <module name="microservices-parent" target="17" />
       <module name="order-services" target="17" />
       <module name="product-service" target="17" />
     </bytecodeTargetLevel>

@@ -15,20 +15,4 @@ public class InvertoryServiceApplication {
     }
 
 
-    @Bean
-    public CommandLineRunner loadData(InventoryRepository inventoryRepository){
-        return args -> {
-            Inventory inventory = new Inventory();
-            inventory.setQuantity(100);
-            inventory.setSkuCode("iphone_13");
-
-
-            Inventory inventory1 = new Inventory();
-            inventory.setQuantity(0);
-            inventory.setSkuCode("iphone_13_red");
-
-            inventoryRepository.save(inventory);
-            inventoryRepository.save(inventory1);
-        };
-    }
-}
+  }
