@@ -17,7 +17,7 @@
     <modules>
         <module>product-service</module>
         <module>order-services</module>
-        <module>invertory-service</module>
+        <module>inventory-service</module>
     </modules>
 
     <properties>
