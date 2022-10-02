@@ -8,11 +8,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="product-service" />
-        <module name="order-services" />
         <module name="invertory-service" />
+        <module name="discovery-server" />
+        <module name="order-services" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="discovery-server" target="17" />
       <module name="invertory-service" target="17" />
       <module name="microservices-parent" target="17" />
       <module name="order-services" target="17" />
@@ -21,6 +23,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="discovery-server" options="-parameters" />
       <module name="invertory-service" options="-parameters" />
       <module name="order-services" options="-parameters" />
       <module name="product-service" options="-parameters" />
